@@ -1,0 +1,7 @@
+secret=6
+guess=int(raw_input("enter the value for guess:"))
+print guess
+
+if guess == secret:
+    print "WELL DONE"
+else: print "YOU FAILED"
